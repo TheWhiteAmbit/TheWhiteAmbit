@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="nodes">
+      <UniqueIdentifier>{7453de35-b296-43f8-93b5-1f9206bee904}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="assets">
+      <UniqueIdentifier>{accfef60-d81f-4ad7-b1b3-4450b289af74}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DirectX10ClearBuffer.cpp">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectX10DrawMock.cpp">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectX10TextureLayer.cpp">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectX10Effect.cpp">
+      <Filter>assets</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectX10ObjMesh.cpp">
+      <Filter>assets</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectX10ObjMeshLoader.cpp">
+      <Filter>assets</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectX10Renderer.cpp">
+      <Filter>assets</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectX10SdkMesh.cpp">
+      <Filter>assets</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectX10TargetRender.cpp">
+      <Filter>assets</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectX10Texture.cpp">
+      <Filter>assets</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectX10ViewRender.cpp">
+      <Filter>assets</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DirectX10ClearBuffer.h">
+      <Filter>nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX10DrawMock.h">
+      <Filter>nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX10TextureLayer.h">
+      <Filter>nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX10Effect.h">
+      <Filter>assets</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX10ObjMesh.h">
+      <Filter>assets</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX10ObjMeshLoader.h">
+      <Filter>assets</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX10Renderer.h">
+      <Filter>assets</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX10SdkMesh.h">
+      <Filter>assets</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX10TargetRender.h">
+      <Filter>assets</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX10Texture.h">
+      <Filter>assets</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX10ViewRender.h">
+      <Filter>assets</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

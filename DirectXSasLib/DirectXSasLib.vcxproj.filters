@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Precompiled Header">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="dx9">
+      <UniqueIdentifier>{b68a0fe6-290e-4de3-bf2e-7c00db3bc5f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="dx10">
+      <UniqueIdentifier>{180a3713-d810-4a90-91a0-bd76e4b07a16}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Precompiled Header</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect9.cpp">
+      <Filter>dx9</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect10.cpp">
+      <Filter>dx10</Filter>
+    </ClCompile>
+    <ClCompile Include="BindAddress.cpp">
+      <Filter>Precompiled Header</Filter>
+    </ClCompile>
+    <ClCompile Include="BoundValueTable.cpp">
+      <Filter>Precompiled Header</Filter>
+    </ClCompile>
+    <ClCompile Include="Control.cpp">
+      <Filter>Precompiled Header</Filter>
+    </ClCompile>
+    <ClCompile Include="DataType.cpp">
+      <Filter>Precompiled Header</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect.cpp">
+      <Filter>Precompiled Header</Filter>
+    </ClCompile>
+    <ClCompile Include="Host.cpp">
+      <Filter>Precompiled Header</Filter>
+    </ClCompile>
+    <ClCompile Include="Integrator.cpp">
+      <Filter>Precompiled Header</Filter>
+    </ClCompile>
+    <ClCompile Include="Parameter.cpp">
+      <Filter>Precompiled Header</Filter>
+    </ClCompile>
+    <ClCompile Include="Sas.cpp">
+      <Filter>Precompiled Header</Filter>
+    </ClCompile>
+    <ClCompile Include="Unit.cpp">
+      <Filter>Precompiled Header</Filter>
+    </ClCompile>
+    <ClCompile Include="Value.cpp">
+      <Filter>Precompiled Header</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Precompiled Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect9.h">
+      <Filter>dx9</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect10.h">
+      <Filter>dx10</Filter>
+    </ClInclude>
+    <ClInclude Include="BindAddress.h" />
+    <ClInclude Include="BoundValueTable.h" />
+    <ClInclude Include="Control.h" />
+    <ClInclude Include="DataType.h" />
+    <ClInclude Include="Effect.h" />
+    <ClInclude Include="FilePath.h" />
+    <ClInclude Include="Host.h" />
+    <ClInclude Include="Integrator.h" />
+    <ClInclude Include="Parameter.h" />
+    <ClInclude Include="Sas.h" />
+    <ClInclude Include="Unit.h" />
+    <ClInclude Include="Value.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Sas.fxh" />
+  </ItemGroup>
+</Project>

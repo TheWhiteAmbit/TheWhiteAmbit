@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="nodes">
+      <UniqueIdentifier>{e63e6c1c-1a1f-4456-8a79-5e29cca1ed82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="assets">
+      <UniqueIdentifier>{5ea1e2aa-24c5-4bbf-af36-d2bddbead094}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DirectX9ClearBuffer.cpp">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectX9DrawMock.cpp">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectX9TextureLayer.cpp">
+      <Filter>nodes</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectX9Effect.cpp">
+      <Filter>assets</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectX9ObjMesh.cpp">
+      <Filter>assets</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectX9ObjMeshLoader.cpp">
+      <Filter>assets</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectX9Renderer.cpp">
+      <Filter>assets</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectX9SdkMesh.cpp">
+      <Filter>assets</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectX9TargetRender.cpp">
+      <Filter>assets</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectX9Texture.cpp">
+      <Filter>assets</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectX9VertexBuffer.cpp">
+      <Filter>assets</Filter>
+    </ClCompile>
+    <ClCompile Include="DirectX9ViewRender.cpp">
+      <Filter>assets</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DirectX9ClearBuffer.h">
+      <Filter>nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX9DrawMock.h">
+      <Filter>nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX9TextureLayer.h">
+      <Filter>nodes</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX9Effect.h">
+      <Filter>assets</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX9ObjMesh.h">
+      <Filter>assets</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX9ObjMeshLoader.h">
+      <Filter>assets</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX9Renderer.h">
+      <Filter>assets</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX9SdkMesh.h">
+      <Filter>assets</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX9TargetRender.h">
+      <Filter>assets</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX9Texture.h">
+      <Filter>assets</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX9VertexBuffer.h">
+      <Filter>assets</Filter>
+    </ClInclude>
+    <ClInclude Include="DirectX9ViewRender.h">
+      <Filter>assets</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

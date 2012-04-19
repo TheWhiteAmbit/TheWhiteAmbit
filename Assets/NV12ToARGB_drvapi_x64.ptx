@@ -1,0 +1,387 @@
+	.version 1.4
+	.target sm_11, map_f64_to_f32
+	// compiled with d:/bld_sdk10_x64.pl/rel/gpgpu/toolkit/r3.2/sdk/Installers/SDK10/Compute\3.2.16-7719292_x64\bin/../open64/lib//be.exe
+	// nvopencc 3.2 built on 2010-11-04
+
+	//-----------------------------------------------------------
+	// Compiling C:/DOCUME~1/BUILDM~1/LOCALS~1/Temp/tmpxft_00000118_00000000-11_NV12ToARGB_drvapi.cpp3.i (C:/DOCUME~1/BUILDM~1/LOCALS~1/Temp/ccBI#.a02616)
+	//-----------------------------------------------------------
+
+	//-----------------------------------------------------------
+	// Options:
+	//-----------------------------------------------------------
+	//  Target:ptx, ISA:sm_11, Endian:little, Pointer Size:32
+	//  -O3	(Optimization level)
+	//  -g0	(Debug level)
+	//  -m2	(Report advisories)
+	//-----------------------------------------------------------
+
+	.file	1	"C:/DOCUME~1/BUILDM~1/LOCALS~1/Temp/tmpxft_00000118_00000000-10_NV12ToARGB_drvapi.cudafe2.gpu"
+	.file	2	"C:\Program Files (x86)\Microsoft Visual Studio 8\VC\INCLUDE\crtdefs.h"
+	.file	3	"d:/bld_sdk10_x64.pl/rel/gpgpu/toolkit/r3.2/sdk/Installers/SDK10/Compute\3.2.16-7719292_x64\bin/../include\crt/device_runtime.h"
+	.file	4	"d:/bld_sdk10_x64.pl/rel/gpgpu/toolkit/r3.2/sdk/Installers/SDK10/Compute\3.2.16-7719292_x64\bin/../include\host_defines.h"
+	.file	5	"d:/bld_sdk10_x64.pl/rel/gpgpu/toolkit/r3.2/sdk/Installers/SDK10/Compute\3.2.16-7719292_x64\bin/../include\builtin_types.h"
+	.file	6	"d:\bld_sdk10_x64.pl\rel\gpgpu\toolkit\r3.2\sdk\installers\sdk10\compute\3.2.16-7719292_x64\include\device_types.h"
+	.file	7	"d:\bld_sdk10_x64.pl\rel\gpgpu\toolkit\r3.2\sdk\installers\sdk10\compute\3.2.16-7719292_x64\include\driver_types.h"
+	.file	8	"d:\bld_sdk10_x64.pl\rel\gpgpu\toolkit\r3.2\sdk\installers\sdk10\compute\3.2.16-7719292_x64\include\surface_types.h"
+	.file	9	"d:\bld_sdk10_x64.pl\rel\gpgpu\toolkit\r3.2\sdk\installers\sdk10\compute\3.2.16-7719292_x64\include\texture_types.h"
+	.file	10	"d:\bld_sdk10_x64.pl\rel\gpgpu\toolkit\r3.2\sdk\installers\sdk10\compute\3.2.16-7719292_x64\include\vector_types.h"
+	.file	11	"d:\bld_sdk10_x64.pl\rel\gpgpu\toolkit\r3.2\sdk\installers\sdk10\compute\3.2.16-7719292_x64\include\builtin_types.h"
+	.file	12	"d:\bld_sdk10_x64.pl\rel\gpgpu\toolkit\r3.2\sdk\installers\sdk10\compute\3.2.16-7719292_x64\include\host_defines.h"
+	.file	13	"d:/bld_sdk10_x64.pl/rel/gpgpu/toolkit/r3.2/sdk/Installers/SDK10/Compute\3.2.16-7719292_x64\bin/../include\device_launch_parameters.h"
+	.file	14	"d:\bld_sdk10_x64.pl\rel\gpgpu\toolkit\r3.2\sdk\installers\sdk10\compute\3.2.16-7719292_x64\include\crt\storage_class.h"
+	.file	15	"C:\Program Files (x86)\Microsoft Visual Studio 8\VC\INCLUDE\time.h"
+	.file	16	"d:\bld_sdk10_x64.pl\rel\gpgpu\toolkit\r3.2\sdk\sdk10\compute\c\src\cudadecoded3d9\cudaProcessFrame.h"
+	.file	17	"d:/bld_sdk10_x64.pl/rel/gpgpu/toolkit/r3.2/sdk/SDK10/Compute/C/src/cudaDecodeD3D9/NV12ToARGB_drvapi.cu"
+	.file	18	"d:/bld_sdk10_x64.pl/rel/gpgpu/toolkit/r3.2/sdk/Installers/SDK10/Compute\3.2.16-7719292_x64\bin/../include\common_functions.h"
+	.file	19	"d:\bld_sdk10_x64.pl\rel\gpgpu\toolkit\r3.2\sdk\installers\sdk10\compute\3.2.16-7719292_x64\include\math_functions.h"
+	.file	20	"d:\bld_sdk10_x64.pl\rel\gpgpu\toolkit\r3.2\sdk\installers\sdk10\compute\3.2.16-7719292_x64\include\math_constants.h"
+	.file	21	"d:\bld_sdk10_x64.pl\rel\gpgpu\toolkit\r3.2\sdk\installers\sdk10\compute\3.2.16-7719292_x64\include\device_functions.h"
+	.file	22	"d:\bld_sdk10_x64.pl\rel\gpgpu\toolkit\r3.2\sdk\installers\sdk10\compute\3.2.16-7719292_x64\include\sm_11_atomic_functions.h"
+	.file	23	"d:\bld_sdk10_x64.pl\rel\gpgpu\toolkit\r3.2\sdk\installers\sdk10\compute\3.2.16-7719292_x64\include\sm_12_atomic_functions.h"
+	.file	24	"d:\bld_sdk10_x64.pl\rel\gpgpu\toolkit\r3.2\sdk\installers\sdk10\compute\3.2.16-7719292_x64\include\sm_13_double_functions.h"
+	.file	25	"d:\bld_sdk10_x64.pl\rel\gpgpu\toolkit\r3.2\sdk\installers\sdk10\compute\3.2.16-7719292_x64\include\sm_20_atomic_functions.h"
+	.file	26	"d:\bld_sdk10_x64.pl\rel\gpgpu\toolkit\r3.2\sdk\installers\sdk10\compute\3.2.16-7719292_x64\include\sm_20_intrinsics.h"
+	.file	27	"d:\bld_sdk10_x64.pl\rel\gpgpu\toolkit\r3.2\sdk\installers\sdk10\compute\3.2.16-7719292_x64\include\surface_functions.h"
+	.file	28	"d:\bld_sdk10_x64.pl\rel\gpgpu\toolkit\r3.2\sdk\installers\sdk10\compute\3.2.16-7719292_x64\include\texture_fetch_functions.h"
+	.file	29	"d:\bld_sdk10_x64.pl\rel\gpgpu\toolkit\r3.2\sdk\installers\sdk10\compute\3.2.16-7719292_x64\include\math_functions_dbl_ptx1.h"
+
+	.const .u32 constAlpha;
+
+	.entry Passthru_drvapi (
+		.param .u32 __cudaparm_Passthru_drvapi_srcImage,
+		.param .u32 __cudaparm_Passthru_drvapi_nSourcePitch,
+		.param .u32 __cudaparm_Passthru_drvapi_dstImage,
+		.param .u32 __cudaparm_Passthru_drvapi_nDestPitch,
+		.param .u32 __cudaparm_Passthru_drvapi_width,
+		.param .u32 __cudaparm_Passthru_drvapi_height)
+	{
+	.reg .u16 %rh<4>;
+	.reg .u32 %r<44>;
+	.reg .u64 %rd<5>;
+	.reg .f32 %f<12>;
+	.reg .pred %p<4>;
+	.loc	17	92	0
+$LDWbegin_Passthru_drvapi:
+	cvt.u32.u16 	%r1, %ntid.x;
+	shl.b32 	%r2, %r1, 1;
+	cvt.u32.u16 	%r3, %tid.x;
+	shl.b32 	%r4, %r3, 1;
+	cvt.u32.u16 	%r5, %ctaid.x;
+	mul.lo.u32 	%r6, %r5, %r2;
+	add.u32 	%r7, %r4, %r6;
+	ld.param.u32 	%r8, [__cudaparm_Passthru_drvapi_width];
+	setp.gt.u32 	%p1, %r8, %r7;
+	@%p1 bra 	$Lt_0_1794;
+	bra.uni 	$LBB6_Passthru_drvapi;
+$Lt_0_1794:
+	.loc	17	107	0
+	mov.u16 	%rh1, %ctaid.y;
+	mov.u16 	%rh2, %ntid.y;
+	mul.wide.u16 	%r9, %rh1, %rh2;
+	cvt.u32.u16 	%r10, %tid.y;
+	add.u32 	%r11, %r10, %r9;
+	ld.param.u32 	%r12, [__cudaparm_Passthru_drvapi_height];
+	setp.gt.u32 	%p2, %r12, %r11;
+	@%p2 bra 	$Lt_0_2306;
+	bra.uni 	$LBB6_Passthru_drvapi;
+$Lt_0_2306:
+	.loc	17	113	0
+	ld.param.u32 	%r13, [__cudaparm_Passthru_drvapi_nSourcePitch];
+	mul.lo.u32 	%r14, %r13, %r11;
+	add.u32 	%r15, %r7, %r14;
+	cvt.u64.u32 	%rd1, %r15;
+	cvt.s32.u64 	%r16, %rd1;
+	ld.param.u32 	%r17, [__cudaparm_Passthru_drvapi_srcImage];
+	add.u32 	%r18, %r16, %r17;
+	ld.global.u8 	%r19, [%r18+0];
+	.loc	17	114	0
+	ld.global.u8 	%r20, [%r18+1];
+	.loc	17	123	0
+	and.b32 	%r21, %r19, 255;
+	ld.param.u32 	%r22, [__cudaparm_Passthru_drvapi_nDestPitch];
+	shr.u32 	%r23, %r22, 2;
+	cvt.rn.f32.u32 	%f1, %r21;
+	mul.lo.u32 	%r24, %r23, %r11;
+	mov.f32 	%f2, 0f00000000;     	// 0
+	max.f32 	%f3, %f1, %f2;
+	add.u32 	%r25, %r7, %r24;
+	mov.f32 	%f4, 0f437f0000;     	// 255
+	min.f32 	%f5, %f3, %f4;
+	cvt.u64.u32 	%rd2, %r25;
+	cvt.rzi.u32.f32 	%r26, %f5;
+	mul.wide.u32 	%rd3, %r25, 4;
+	cvt.s32.u64 	%r27, %rd3;
+	ld.param.u32 	%r28, [__cudaparm_Passthru_drvapi_dstImage];
+	add.u32 	%r29, %r27, %r28;
+	ld.const.u32 	%r30, [constAlpha];
+	shl.b32 	%r31, %r26, 8;
+	or.b32 	%r32, %r26, %r31;
+	shl.b32 	%r33, %r26, 16;
+	or.b32 	%r34, %r30, %r33;
+	or.b32 	%r35, %r32, %r34;
+	st.global.u32 	[%r29+0], %r35;
+	.loc	17	124	0
+	and.b32 	%r36, %r20, 255;
+	cvt.rn.f32.u32 	%f6, %r36;
+	mov.f32 	%f7, 0f00000000;     	// 0
+	max.f32 	%f8, %f6, %f7;
+	mov.f32 	%f9, 0f437f0000;     	// 255
+	min.f32 	%f10, %f8, %f9;
+	cvt.rzi.u32.f32 	%r37, %f10;
+	shl.b32 	%r38, %r37, 8;
+	or.b32 	%r39, %r37, %r38;
+	shl.b32 	%r40, %r37, 16;
+	or.b32 	%r41, %r30, %r40;
+	or.b32 	%r42, %r39, %r41;
+	st.global.u32 	[%r29+4], %r42;
+$LBB6_Passthru_drvapi:
+	.loc	17	125	0
+	exit;
+$LDWend_Passthru_drvapi:
+	} // Passthru_drvapi
+	.const .align 4 .b8 constHueColorSpaceMat[36];
+
+	.entry NV12ToARGB_drvapi (
+		.param .u32 __cudaparm_NV12ToARGB_drvapi_srcImage,
+		.param .u32 __cudaparm_NV12ToARGB_drvapi_nSourcePitch,
+		.param .u32 __cudaparm_NV12ToARGB_drvapi_dstImage,
+		.param .u32 __cudaparm_NV12ToARGB_drvapi_nDestPitch,
+		.param .u32 __cudaparm_NV12ToARGB_drvapi_width,
+		.param .u32 __cudaparm_NV12ToARGB_drvapi_height)
+	{
+	.reg .u16 %rh<4>;
+	.reg .u32 %r<97>;
+	.reg .u64 %rd<7>;
+	.reg .f32 %f<67>;
+	.reg .pred %p<6>;
+	.loc	17	132	0
+$LDWbegin_NV12ToARGB_drvapi:
+	cvt.u32.u16 	%r1, %ntid.x;
+	shl.b32 	%r2, %r1, 1;
+	cvt.u32.u16 	%r3, %tid.x;
+	shl.b32 	%r4, %r3, 1;
+	cvt.u32.u16 	%r5, %ctaid.x;
+	mul.lo.u32 	%r6, %r5, %r2;
+	add.u32 	%r7, %r4, %r6;
+	ld.param.u32 	%r8, [__cudaparm_NV12ToARGB_drvapi_width];
+	setp.gt.u32 	%p1, %r8, %r7;
+	@%p1 bra 	$Lt_1_3330;
+	bra.uni 	$LBB11_NV12ToARGB_drvapi;
+$Lt_1_3330:
+	.loc	17	147	0
+	mov.u16 	%rh1, %ctaid.y;
+	mov.u16 	%rh2, %ntid.y;
+	mul.wide.u16 	%r9, %rh1, %rh2;
+	cvt.u32.u16 	%r10, %tid.y;
+	add.u32 	%r11, %r10, %r9;
+	ld.param.u32 	%r12, [__cudaparm_NV12ToARGB_drvapi_height];
+	setp.lt.u32 	%p2, %r11, %r12;
+	@%p2 bra 	$Lt_1_3842;
+	bra.uni 	$LBB11_NV12ToARGB_drvapi;
+$Lt_1_3842:
+	.loc	17	153	0
+	ld.param.u32 	%r13, [__cudaparm_NV12ToARGB_drvapi_nSourcePitch];
+	mul.lo.u32 	%r14, %r11, %r13;
+	add.u32 	%r15, %r7, %r14;
+	cvt.u64.u32 	%rd1, %r15;
+	cvt.s32.u64 	%r16, %rd1;
+	ld.param.u32 	%r17, [__cudaparm_NV12ToARGB_drvapi_srcImage];
+	add.u32 	%r18, %r16, %r17;
+	ld.global.u8 	%r19, [%r18+0];
+	shl.b32 	%r20, %r19, 2;
+	.loc	17	154	0
+	ld.global.u8 	%r21, [%r18+1];
+	shl.b32 	%r22, %r21, 2;
+	shr.s32 	%r23, %r11, 1;
+	.loc	17	147	0
+	ld.param.u32 	%r12, [__cudaparm_NV12ToARGB_drvapi_height];
+	.loc	17	154	0
+	add.u32 	%r24, %r23, %r12;
+	mul.lo.u32 	%r25, %r24, %r13;
+	add.u32 	%r26, %r7, %r25;
+	cvt.u64.u32 	%rd2, %r26;
+	cvt.s32.u64 	%r27, %rd2;
+	add.u32 	%r28, %r27, %r17;
+	ld.global.u8 	%r29, [%r28+0];
+	ld.global.u8 	%r30, [%r28+1];
+	and.b32 	%r31, %r11, 1;
+	mov.u32 	%r32, 0;
+	setp.eq.s32 	%p3, %r31, %r32;
+	@%p3 bra 	$Lt_1_4610;
+	.loc	17	164	0
+	mov.s32 	%r33, %r29;
+	.loc	17	165	0
+	mov.s32 	%r34, %r30;
+	.loc	17	147	0
+	ld.param.u32 	%r12, [__cudaparm_NV12ToARGB_drvapi_height];
+	.loc	17	165	0
+	shr.u32 	%r35, %r12, 1;
+	sub.u32 	%r36, %r35, 1;
+	setp.ge.u32 	%p4, %r23, %r36;
+	@%p4 bra 	$Lt_1_4866;
+	.loc	17	169	0
+	add.u32 	%r37, %r24, 1;
+	.loc	17	153	0
+	ld.param.u32 	%r13, [__cudaparm_NV12ToARGB_drvapi_nSourcePitch];
+	.loc	17	169	0
+	mul.lo.u32 	%r38, %r37, %r13;
+	add.u32 	%r39, %r7, %r38;
+	cvt.u64.u32 	%rd3, %r39;
+	cvt.s32.u64 	%r40, %rd3;
+	.loc	17	153	0
+	ld.param.u32 	%r17, [__cudaparm_NV12ToARGB_drvapi_srcImage];
+	.loc	17	169	0
+	add.u32 	%r41, %r40, %r17;
+	ld.global.u8 	%r42, [%r41+0];
+	add.u32 	%r43, %r42, %r29;
+	add.u32 	%r44, %r43, 1;
+	shr.u32 	%r33, %r44, 1;
+	.loc	17	170	0
+	ld.global.u8 	%r45, [%r41+1];
+	add.u32 	%r46, %r45, %r30;
+	add.u32 	%r47, %r46, 1;
+	shr.u32 	%r34, %r47, 1;
+$Lt_1_4866:
+	.loc	17	173	0
+	shl.b32 	%r48, %r33, 12;
+	or.b32 	%r49, %r48, %r20;
+	.loc	17	174	0
+	shl.b32 	%r50, %r34, 22;
+	or.b32 	%r20, %r50, %r49;
+	.loc	17	176	0
+	or.b32 	%r51, %r48, %r22;
+	.loc	17	177	0
+	or.b32 	%r22, %r50, %r51;
+	bra.uni 	$Lt_1_4354;
+$Lt_1_4610:
+	.loc	17	181	0
+	shl.b32 	%r52, %r29, 12;
+	or.b32 	%r53, %r52, %r20;
+	.loc	17	182	0
+	shl.b32 	%r54, %r30, 22;
+	or.b32 	%r20, %r54, %r53;
+	.loc	17	184	0
+	or.b32 	%r55, %r52, %r22;
+	.loc	17	185	0
+	or.b32 	%r22, %r54, %r55;
+$Lt_1_4354:
+	.loc	17	80	0
+	shl.b32 	%r56, %r20, 12;
+	shr.u32 	%r57, %r56, 22;
+	and.b32 	%r58, %r20, 1023;
+	shl.b32 	%r59, %r20, 2;
+	shr.u32 	%r60, %r59, 22;
+	cvt.rn.f32.s32 	%f1, %r57;
+	cvt.rn.f32.u32 	%f2, %r58;
+	cvt.rn.f32.s32 	%f3, %r60;
+	mov.f32 	%f4, 0fc4000000;     	// -512
+	add.f32 	%f5, %f1, %f4;
+	mov.f32 	%f6, 0fc4000000;     	// -512
+	add.f32 	%f7, %f3, %f6;
+	ld.const.f32 	%f8, [constHueColorSpaceMat+8];
+	ld.const.f32 	%f9, [constHueColorSpaceMat+0];
+	ld.const.f32 	%f10, [constHueColorSpaceMat+4];
+	ld.const.f32 	%f11, [constHueColorSpaceMat+20];
+	ld.const.f32 	%f12, [constHueColorSpaceMat+12];
+	ld.const.f32 	%f13, [constHueColorSpaceMat+16];
+	ld.const.f32 	%f14, [constHueColorSpaceMat+32];
+	ld.const.f32 	%f15, [constHueColorSpaceMat+24];
+	ld.const.f32 	%f16, [constHueColorSpaceMat+28];
+	ld.const.u32 	%r61, [constAlpha];
+	mul.f32 	%f17, %f5, %f10;
+	mad.f32 	%f18, %f9, %f2, %f17;
+	mad.f32 	%f19, %f8, %f7, %f18;
+	mov.f32 	%f20, 0f00000000;    	// 0
+	max.f32 	%f21, %f19, %f20;
+	mov.f32 	%f22, 0f447fc000;    	// 1023
+	min.f32 	%f23, %f21, %f22;
+	cvt.rzi.u32.f32 	%r62, %f23;
+	shr.u32 	%r63, %r62, 2;
+	shl.b32 	%r64, %r63, 16;
+	or.b32 	%r65, %r61, %r64;
+	mul.f32 	%f24, %f5, %f16;
+	mad.f32 	%f25, %f15, %f2, %f24;
+	mad.f32 	%f26, %f14, %f7, %f25;
+	mov.f32 	%f27, 0f00000000;    	// 0
+	max.f32 	%f28, %f26, %f27;
+	mov.f32 	%f29, 0f447fc000;    	// 1023
+	min.f32 	%f30, %f28, %f29;
+	cvt.rzi.u32.f32 	%r66, %f30;
+	shr.u32 	%r67, %r66, 2;
+	mul.f32 	%f31, %f5, %f13;
+	mad.f32 	%f32, %f12, %f2, %f31;
+	mad.f32 	%f33, %f11, %f7, %f32;
+	mov.f32 	%f34, 0f00000000;    	// 0
+	max.f32 	%f35, %f33, %f34;
+	mov.f32 	%f36, 0f447fc000;    	// 1023
+	min.f32 	%f37, %f35, %f36;
+	cvt.rzi.u32.f32 	%r68, %f37;
+	shr.u32 	%r69, %r68, 2;
+	shl.b32 	%r70, %r69, 8;
+	or.b32 	%r71, %r67, %r70;
+	or.b32 	%r72, %r65, %r71;
+	.loc	17	205	0
+	ld.param.u32 	%r73, [__cudaparm_NV12ToARGB_drvapi_nDestPitch];
+	shr.u32 	%r74, %r73, 2;
+	mul.lo.u32 	%r75, %r74, %r11;
+	add.u32 	%r76, %r7, %r75;
+	cvt.u64.u32 	%rd4, %r76;
+	mul.wide.u32 	%rd5, %r76, 4;
+	cvt.s32.u64 	%r77, %rd5;
+	ld.param.u32 	%r78, [__cudaparm_NV12ToARGB_drvapi_dstImage];
+	add.u32 	%r79, %r77, %r78;
+	st.global.u32 	[%r79+0], %r72;
+	.loc	17	80	0
+	shl.b32 	%r80, %r22, 12;
+	shr.u32 	%r81, %r80, 22;
+	and.b32 	%r82, %r22, 1023;
+	shl.b32 	%r83, %r22, 2;
+	shr.u32 	%r84, %r83, 22;
+	cvt.rn.f32.s32 	%f38, %r81;
+	cvt.rn.f32.u32 	%f39, %r82;
+	cvt.rn.f32.s32 	%f40, %r84;
+	mov.f32 	%f41, 0fc4000000;    	// -512
+	add.f32 	%f42, %f38, %f41;
+	mov.f32 	%f43, 0fc4000000;    	// -512
+	add.f32 	%f44, %f40, %f43;
+	mul.f32 	%f45, %f42, %f10;
+	mad.f32 	%f46, %f9, %f39, %f45;
+	mad.f32 	%f47, %f8, %f44, %f46;
+	mov.f32 	%f48, 0f00000000;    	// 0
+	max.f32 	%f49, %f47, %f48;
+	mov.f32 	%f50, 0f447fc000;    	// 1023
+	min.f32 	%f51, %f49, %f50;
+	cvt.rzi.u32.f32 	%r85, %f51;
+	shr.u32 	%r86, %r85, 2;
+	shl.b32 	%r87, %r86, 16;
+	or.b32 	%r88, %r61, %r87;
+	mul.f32 	%f52, %f42, %f16;
+	mad.f32 	%f53, %f15, %f39, %f52;
+	mad.f32 	%f54, %f14, %f44, %f53;
+	mov.f32 	%f55, 0f00000000;    	// 0
+	max.f32 	%f56, %f54, %f55;
+	mov.f32 	%f57, 0f447fc000;    	// 1023
+	min.f32 	%f58, %f56, %f57;
+	cvt.rzi.u32.f32 	%r89, %f58;
+	shr.u32 	%r90, %r89, 2;
+	mul.f32 	%f59, %f42, %f13;
+	mad.f32 	%f60, %f12, %f39, %f59;
+	mad.f32 	%f61, %f11, %f44, %f60;
+	mov.f32 	%f62, 0f00000000;    	// 0
+	max.f32 	%f63, %f61, %f62;
+	mov.f32 	%f64, 0f447fc000;    	// 1023
+	min.f32 	%f65, %f63, %f64;
+	cvt.rzi.u32.f32 	%r91, %f65;
+	shr.u32 	%r92, %r91, 2;
+	shl.b32 	%r93, %r92, 8;
+	or.b32 	%r94, %r90, %r93;
+	or.b32 	%r95, %r88, %r94;
+	.loc	17	206	0
+	st.global.u32 	[%r79+4], %r95;
+$LBB11_NV12ToARGB_drvapi:
+	.loc	17	207	0
+	exit;
+$LDWend_NV12ToARGB_drvapi:
+	} // NV12ToARGB_drvapi
+
